@@ -1,35 +1,35 @@
-## Описание
+## Description
 
-Това е конзолно приложение, написано на C++, което симулира система за управление на потребители, курсове и съобщения между тях. Програмата е изградена с използване на **обектно-ориентирано програмиране (ООП)** и шаблона **Command Pattern**, което я прави гъвкава и лесна за разширяване.
+This is a console application written in C++ that simulates a system for managing users, courses, and messages between them. The program is built using **object-oriented programming (OOP)** and the **Command Pattern**, making it flexible and easy to extend.
 
-## Основни функционалности
+## Main Features
 
-- **Управление на потребители**
-  - Добавяне на нови потребители
-  - Изтриване на потребители
-  - Извеждане на списък с всички регистрирани потребители
+- **User Management**
+  - Add new users  
+  - Delete users  
+  - Display a list of all registered users  
 
-- **Управление на курсове**
-  - Създаване на нов курс
-  - Записване на потребители в курс
-  - Премахване на потребители от курс
-  - Списък на всички курсове и участниците в тях
+- **Course Management**
+  - Create new courses  
+  - Enroll users in a course  
+  - Remove users from a course  
+  - Display all courses and their participants  
 
-- **Съобщения**
-  - Изпращане на съобщения между потребители
-  - Преглед на входящи и изходящи съобщения
+- **Messaging**
+  - Send messages between users  
+  - View incoming and outgoing messages  
 
-- **Обработка на команди (Command Pattern)**
-  - Всяка команда е реализирана чрез обект, наследяващ интерфейс `Command`
-  - Централна **CommandFactory** създава правилната команда на база входа
+- **Command Handling (Command Pattern)**
+  - Each command is implemented as an object that inherits from the `Command` interface  
+  - A central **CommandFactory** creates the correct command based on user input  
 
-- **Валидация и обратна връзка**
-  - Централизирана проверка за грешки при вход
-  - Смислени съобщения при невалидни команди или действия
+- **Validation and Feedback**
+  - Centralized input validation  
+  - Clear error messages for invalid commands or actions  
 
-## Технологии
+## Technologies
 
-- **Език**: C++
-- **Шаблон**: Command Pattern
-- **Интерфейс**: Конзолен (CLI)
-- **Зависимости**: Няма – използва се само стандартната библиотека на C++
+- **Language**: C++  
+- **Design Pattern**: Command Pattern  
+- **Interface**: Console-based (CLI)  
+- **Dependencies**: None – uses only the C++ Standard Library  
